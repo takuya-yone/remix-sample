@@ -1,0 +1,6 @@
+services:
+  remix:
+    build: .
+    platform: linux/x86_64
+    ports:
+      - "3000:3000"
